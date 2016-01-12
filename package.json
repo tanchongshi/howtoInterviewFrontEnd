@@ -1,0 +1,40 @@
+{
+  "name": "howToInterviewFrontEnd",
+  "description": "前端面试",
+  "version": "0.1.0",
+  "homepage": "https://github.com/tanchongshi/howtoInterviewFrontEnd",
+  "author": {
+    "name": "mesut",
+    "email": "tanchongshi@163.com",
+    "url": "http://cocoscript.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tanchongshi/howtoInterviewFrontEnd.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tanchongshi/howtoInterviewFrontEnd/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/tanchongshi/howtoInterviewFrontEnd/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/howToInterviewFrontEnd",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "devDependencies": {
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-uglify": "~0.2.0",
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.4.0",
+    "grunt": "~0.4.5"
+  },
+  "keywords": []
+}
